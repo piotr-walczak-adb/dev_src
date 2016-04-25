@@ -21,5 +21,6 @@ void hello_yocto(void)
 
 int foo_bar(void)
 {
+    printf("foo_bar\n");
     return 0;
 }
