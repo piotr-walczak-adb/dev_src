@@ -5,7 +5,7 @@ void hello_yocto(void);
 
 int main(int argc, char **argv)
 {
-    printf("In %s calling function: hello_yocto\n", __FUNCTION__);
+    printf("\nIn %s calling function: hello_yocto\n", __FUNCTION__);
     hello_yocto();
     return 0;
 }
