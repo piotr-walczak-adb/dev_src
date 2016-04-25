@@ -8,6 +8,7 @@ int main(int argc, char **argv)
 {
     printf("\nIn %s calling function: hello_yocto\n", __FUNCTION__);
     hello_yocto();
+    printf("\nIn %s calling function: ", __FUNCTION__);
     foo_bar();
     printf("Exiting...\n\n");
     return 0;
