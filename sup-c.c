@@ -12,8 +12,6 @@ int main(int argc, char **argv)
 
 void hello_yocto(void)
 {
-    printf("\n");
-    printf("Hello Yocto\n");
-    printf("devtool test on poky 2.0.1\n");
-    printf("\n");
+    printf("\nHello Yocto\n");
+    printf("devtool test on poky 2.0.1\n\n");
 }
